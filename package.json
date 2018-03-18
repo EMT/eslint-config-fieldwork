@@ -8,6 +8,10 @@
   },
   "author": "Fieldwork",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/EMT/eslint-config-fieldwork"
+  },
   "dependencies": {
     "eslint": "^4.19.0",
     "eslint-config-airbnb": "^16.1.0",
