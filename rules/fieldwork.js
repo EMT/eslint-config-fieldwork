@@ -11,6 +11,19 @@ module.exports = {
             "error",
             "unix"
         ],
+        "max-len": [
+            "error",
+            100,
+            2,
+            {
+                "ignoreUrls": true,
+                "ignoreComments": false,
+                "ignoreRegExpLiterals": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true,
+                "ignorePattern": "\\s*<"
+            }
+        ],
         "quotes": [
             "error",
             "single"
