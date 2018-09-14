@@ -65,6 +65,12 @@ module.exports = {
         "react/jsx-indent-props": [
             "error",
             4
-        ]
+        ],
+        // make default props work with flow types
+        "react/default-props-match-prop-types": [
+            "error", {
+                "allowRequiredDefaults": true
+            }
+        ],
     }
 }
