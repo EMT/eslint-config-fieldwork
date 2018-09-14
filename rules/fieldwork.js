@@ -73,7 +73,7 @@ module.exports = {
             }
         ],
         "react/require-default-props": [
-            "error": {
+            "error", {
                 "forbidDefaultForRequired": false
             }
         ],
